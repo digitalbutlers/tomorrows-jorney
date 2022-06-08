@@ -317,6 +317,11 @@ bottom: 17px;
 width: 37px;
 
 }
+.menu-btn:hover::before,
+.menu-btn:hover::after,
+.menu-btn:hover .menu-line{
+width: 37px;
+}
 .menu-btn.w--open .menu-line{
     transition: all 0.3s ease;
     opacity: 0;
