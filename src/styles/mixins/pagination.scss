@@ -1,0 +1,21 @@
+
+.fs-pagination ul li a{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff !important;
+    text-decoration: none;
+    padding: 10px 15px !important;
+}
+.fs-pagination ul li:first-child a {
+    border-radius: 10px 0 0 10px;
+}
+.fs-pagination ul li:last-child a {
+    border-radius: 0 10px 10px 0;
+    border-right: 1px solid #fff;
+}
+.fs-pagination-page{
+    transition: all 0.3s ease;
+}
+.fs-pagination-page:hover{
+    transition: all 0.3s ease;
+    background: rgba(255,255,255, 0.2);
+}

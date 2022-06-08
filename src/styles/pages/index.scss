@@ -1,0 +1,145 @@
+
+.contacts-network_link svg path{
+    transition: all 0.3s ease;
+}
+.contacts-network_link:hover svg path{
+    fill: var(--ocean);
+    transition: all 0.3s ease;
+}
+.list-partners{
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+.greeting-image{
+    height: max-content;
+}
+.contacts-data-email_wrp{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.changes-span.greeting-span,
+.subsription.greeting-span{
+    display: inline-flex;
+}
+.swiper-car-name.swiper,
+.car-name_wrp.swiper-wrapper{
+    height: 75px !important;
+}
+.greeting-image.swiper-slide{
+    width: 100% !important;
+}
+.swiper-wrapper.cars_wrp{
+		width: 100% !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+}
+.swiper-slide.greeting-image{
+    opacity: 0 !important;
+}
+.swiper-slide.greeting-image.swiper-slide-active{
+    opacity: 1 !important;
+}
+@media screen and (max-width:1220px) {
+		.launch-and{
+    display:block;
+    }
+    .first-span-block{
+        display: inline;
+    }
+    .business{
+        display: block;
+    }
+}
+
+@media screen and (max-width:991px) {  
+    .list-partners{
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+@media screen and (max-width:767px) {  
+.btn-wrapper.news{
+    width: max-content;
+    max-width: max-content;
+}
+.desktop-pagination.swiper-pagination{
+bottom: 32px !important;
+}
+.desktop-pagination.swiper-pagination .swiper-pagination-bullet{
+left: auto !important;
+right: auto !important;
+margin: 0 10px !important;
+}
+.desktop-btn_next.swiper-button-next, .desktop-btn_prev.swiper-button-prev{
+    top: auto;
+    bottom: 0px;
+}
+.desktop-btn_next.swiper-button-next{
+    right: 50px !important;
+}
+.desktop-btn_prev.swiper-button-prev{
+    left: 0px !important;
+}
+.btn-wrapper.form-btn{
+    width: max-content;
+}
+.swiper-car-name.swiper,
+.car-name_wrp.swiper-wrapper{
+    height: 48px !important;
+}
+}
+@media screen and (max-width:570px) {
+    .subsription.greeting-span{
+        display: inline-flex;
+    }
+}
+@media screen and (max-width:478px) {  
+    .list-partners{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+.desktop-btn_next.swiper-button-next{
+    right: 10px !important;
+}
+.desktop-btn_prev.swiper-button-prev{
+    left: 10px !important;
+}
+.swiper-slide.greeting-image {
+    height: 260px !important;
+}
+.first-span-block{
+    display: inline;
+}
+.swiper-car-name.swiper,
+.car-name_wrp.swiper-wrapper{
+    height: 96px !important;
+}
+}
+@media screen and (max-width:370px) {
+    .changes-span.greeting-span{
+        display: block;
+    }
+    .swiper-car-name.swiper,
+		.car-name_wrp.swiper-wrapper{
+    height: 82px !important;
+		}
+    .swiper-slide.car-name{
+    font-size:2rem;
+    }
+    .title-xxl.main-hero.greeting-title{
+        font-size:2rem;
+    }
+    .swiper-slide.car-name.greeting-span{
+    min-height: 82px !important;
+    }
+}
