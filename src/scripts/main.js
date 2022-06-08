@@ -1,3 +1,10 @@
+// eslint-disable-next-line no-unused-vars
+const BREAKPOINTS = {
+	tablet: 991,
+	mob_landscape: 767,
+	mob_portrait: 478,
+};
+
 /* autocompleteOff */
 const inputs = document.querySelectorAll('input');
 const textareas = document.querySelectorAll('textarea');
