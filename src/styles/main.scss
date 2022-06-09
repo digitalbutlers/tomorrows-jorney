@@ -388,10 +388,17 @@ transition: all 0.3s ease;
     transform: scale(0.95);
 }
   }
+  .section-news .swiper-slide{
+          height: max-content;
+  }
     @media screen and (max-width:767px) {
     .w-nav-overlay{
     right: -20px;
     }
+    .news-list.swiper-wrapper {
+    padding-bottom: 0px;
+    transition: all 0.3s ease;
+}
 	}
     @media screen and (max-width:478px) {  
 		.w-nav-overlay{
